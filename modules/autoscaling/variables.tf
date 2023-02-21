@@ -7,7 +7,7 @@ variable "namespace" {
 #}
 #variable "aws_secret_access_key_id" {
 #  type = string
-}
+#}
 variable "vpc" {
   type = any
 }
