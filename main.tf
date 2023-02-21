@@ -1,7 +1,7 @@
 module "autoscaling" {
   source      = "./modules/autoscaling" #A
   namespace   = var.namespace           #B
-  ssh_keypair = var.ssh_keypair         #A
+  #ssh_keypair = var.ssh_keypair         #A
 
   vpc       = module.networking.vpc     #A
   sg        = module.networking.sg      #A
