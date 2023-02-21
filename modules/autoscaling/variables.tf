@@ -2,11 +2,11 @@ variable "namespace" {
   type = string
 }
 
-variable "aws_access_key_id" {
-  type = string
-}
-variable "aws_secret_access_key_id" {
-  type = string
+#variable "aws_access_key_id" {
+# type = string
+#}
+#variable "aws_secret_access_key_id" {
+#  type = string
 }
 variable "vpc" {
   type = any
